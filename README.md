@@ -17,15 +17,17 @@
 
 - 人民共和国县以上行政区划代码2020.11.json
     
-    没什么说的，中国行政区划2020.11统计信息；
+    这是解析中国行政区划2020.11信息的出来的json；
     
-    [前往官网](http://www.mca.gov.cn/article/sj/xzqh/1980/202105/20210500033655.shtml)   
+    [前往民政部官网](http://www.mca.gov.cn/article/sj/xzqh/1980/202105/20210500033655.shtml)   
     
     [GITHUB中华人民共和国行政区划代码](https://github.com/tonyc726/china-administrative-division)
     
 - 银联卡跨行业务地区代码标准2018.3.json
     
-    也没什么说的, 这是解析`银联卡跨行业务地区代码标准(2018年3月版).doc`得出来的数据
+    这是解析`银联卡跨行业务地区代码标准(2018年3月版).doc`得出来的数据
+    
+    [前往银联官网](https://open.unionpay.com/tjweb/api/detail?apiSvcId=85&index=6)   
     
 - 银联卡地区代码-行政代码映射.json
     

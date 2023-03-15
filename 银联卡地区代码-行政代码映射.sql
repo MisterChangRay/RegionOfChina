@@ -8,9 +8,6 @@ CREATE TABLE `region_of_china` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
-
-
-
 insert into region_of_china (id, name, pid, code,  code_name) values ('1000', '北京市', '-1', '11','北京市');
 insert into region_of_china (id, name, pid, code,  code_name) values ('1021', '东城区', '1000', '110101','东城区');
 insert into region_of_china (id, name, pid, code,  code_name) values ('1022', '西城区', '1000', '110102','西城区');
@@ -3225,13 +3222,13 @@ insert into region_of_china (id, name, pid, code,  code_name) values ('9024', '�
 insert into region_of_china (id, name, pid, code,  code_name) values ('9025', '哈巴河县', '9020', '654324','哈巴河县');
 insert into region_of_china (id, name, pid, code,  code_name) values ('9026', '青河县', '9020', '654325','青河县');
 insert into region_of_china (id, name, pid, code,  code_name) values ('9027', '吉木乃县', '9020', '654326','吉木乃县');
-insert into region_of_china (id, name, pid, code,  code_name) values ('-1', '新疆维吾尔自治区直辖', '8800', '6590','自治区直辖县级行政区划');
-insert into region_of_china (id, name, pid, code,  code_name) values ('9028', '石河子市（自治区直辖）', '-1', '659001','石河子市');
-insert into region_of_china (id, name, pid, code,  code_name) values ('9041', '阿拉尔市（自治区直辖）', '-1', '659002','阿拉尔市');
-insert into region_of_china (id, name, pid, code,  code_name) values ('9042', '图木舒克市（自治区直辖）', '-1', '659003','图木舒克市');
-insert into region_of_china (id, name, pid, code,  code_name) values ('9043', '五家渠市（自治区直辖）', '-1', '659004','五家渠市');
-insert into region_of_china (id, name, pid, code,  code_name) values ('9044', '北屯市（自治区直辖）', '-1', '659005','北屯市');
-insert into region_of_china (id, name, pid, code,  code_name) values ('9045', '双河市（自治区直辖）', '-1', '659007','双河市');
-insert into region_of_china (id, name, pid, code,  code_name) values ('9046', '可克达拉市(自治区直辖)', '-1', '659008','可克达拉市');
-insert into region_of_china (id, name, pid, code,  code_name) values ('8890', '铁门关市（自治区直辖）', '-1', '659006','铁门关市');
-insert into region_of_china (id, name, pid, code,  code_name) values ('9047', '昆玉市(自治区直辖)', '-1', '659009','昆玉市');
+insert into region_of_china (id, name, pid, code,  code_name) values ('88001', '新疆维吾尔自治区直辖', '8800', '6590','自治区直辖县级行政区划');
+insert into region_of_china (id, name, pid, code,  code_name) values ('9028', '石河子市（自治区直辖）', '88001', '659001','石河子市');
+insert into region_of_china (id, name, pid, code,  code_name) values ('9041', '阿拉尔市（自治区直辖）', '88001', '659002','阿拉尔市');
+insert into region_of_china (id, name, pid, code,  code_name) values ('9042', '图木舒克市（自治区直辖）', '88001', '659003','图木舒克市');
+insert into region_of_china (id, name, pid, code,  code_name) values ('9043', '五家渠市（自治区直辖）', '88001', '659004','五家渠市');
+insert into region_of_china (id, name, pid, code,  code_name) values ('9044', '北屯市（自治区直辖）', '88001', '659005','北屯市');
+insert into region_of_china (id, name, pid, code,  code_name) values ('9045', '双河市（自治区直辖）', '88001', '659007','双河市');
+insert into region_of_china (id, name, pid, code,  code_name) values ('9046', '可克达拉市(自治区直辖)', '88001', '659008','可克达拉市');
+insert into region_of_china (id, name, pid, code,  code_name) values ('8890', '铁门关市（自治区直辖）', '88001', '659006','铁门关市');
+insert into region_of_china (id, name, pid, code,  code_name) values ('9047', '昆玉市(自治区直辖)', '88001', '659009','昆玉市');
